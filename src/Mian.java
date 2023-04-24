@@ -23,6 +23,7 @@ public class Mian {
         //SHALOW COPYÇ+
         StringBuilder[] v4 = Arrays.copyOf(v1, v1.length);
         System.out.println(Arrays.equals(v3, v4));
+        System.out.println(v3 == v4);
 
 
 
